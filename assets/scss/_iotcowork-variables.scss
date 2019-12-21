@@ -1,0 +1,17 @@
+@import '~@angular/material/theming';
+
+$IOTCowork-color: #ea7b4d;
+
+$IOTCowork-typography: mat-typography-config(
+  $font-family: '"Noto Sans SC", Roboto !important;'
+);
+
+$IOTCowork-palette-primary: mat-palette($mat-deep-orange, 300);
+$IOTCowork-palette-accent:  mat-palette($mat-grey, 300);
+$IOTCowork-palette-warn:    mat-palette($mat-red, 700);
+
+$IOTCowork-color-primary: mat-color($IOTCowork-palette-primary);
+$IOTCowork-color-accent:  mat-color($IOTCowork-palette-accent);
+$IOTCowork-color-warn:    mat-color($IOTCowork-palette-warn);
+
+$IOTCowork-theme: mat-light-theme($IOTCowork-palette-primary, $IOTCowork-palette-accent, $IOTCowork-palette-warn);
